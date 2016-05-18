@@ -53,4 +53,12 @@ function load_data_into_template()
 	return 1;
 }
 load_data_into_template();
+
+/* ## Example usage ##
+	<div id = 'post_content'>
+		{POST_CONTENT}
+	</div>
+	
+	#support for loops isn't in here, yet. But perhaps something like { FOR sizeof( comments ) } ...HTML CONTENT ... { END }
+*/
 ?>
