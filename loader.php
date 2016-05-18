@@ -40,6 +40,7 @@ function load_data_into_template()
 					"{POST_MODIFIED_TIME}" => $row['modified_time']
 				);
 			}
+		}
 			
 		#### Translate template ####
 		foreach( $post_data as $key => $value )
