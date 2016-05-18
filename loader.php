@@ -1,7 +1,7 @@
 <?php
 /*
 	Created by Dylan (iiNzTicTx) to only be used for educational purposes.
-	This was original a template loader for a blog I was creating.
+	This was originally a template loader for a blog I was creating.
 */
 include( './scripts/mysql_details.php' );
 $handle = mysqli_connect( $MYSQL_HOST, $MYSQL_USER, $MYSQL_PASS, $MYSQL_DB ) or die();
